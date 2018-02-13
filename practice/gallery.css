@@ -1,0 +1,20 @@
+.navbar-dark
+{
+  background-color: #293342;
+}
+.jumbotron
+{
+  color: #293342;
+  background: #ecf0f1;
+}
+.img-thumbnail
+{
+  margin-bottom: 30px;
+}
+.container
+{
+  margin-top: 70px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}

@@ -1,0 +1,20 @@
+body
+{
+  background: url(https://hdwallsource.com/img/2015/6/old-notebook-paper-wallpaper-45973-47255-hd-wallpapers.jpg);
+}
+
+h1
+{
+  color: #263d66;
+  border: 7px solid #117f05;
+}
+
+#crw
+{
+  background: yellow;
+}
+
+.done
+{
+  text-decoration: line-through;
+}

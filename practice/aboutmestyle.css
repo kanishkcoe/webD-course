@@ -1,0 +1,23 @@
+h1
+{
+  color: brown;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+}
+
+h4
+{
+  background: orange;
+  border: 5px solid black;
+}
+
+li
+{
+  color: rgba(10, 100, 0, 0.64);
+}
+
+body
+{
+  background: url(https://wallpapercave.com/wp/pzkWBdb.jpg);
+}

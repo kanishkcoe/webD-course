@@ -1,0 +1,50 @@
+body
+{
+  background: url(http://c1.peakpx.com/wallpaper/397/790/390/cat-animal-kitten-cute-young-fur-wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: lato;
+  color: white;
+
+}
+
+.btn-secondary
+{
+  color: black;
+  background-color: #e6e8ed;
+  border-color: #d1d3d6;
+}
+
+#content
+{
+  text-align: center;
+  padding-top: 30%;
+}
+
+nav .container
+{
+  max-width: 90%;
+}
+
+h1
+{
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: 0px 2px 8px #000000;
+}
+
+h3
+{
+  text-shadow: 0px 2px 6px #000000;
+}
+hr
+{
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+  width: 50%;
+}
+
+html
+{
+  height: 100%;
+}

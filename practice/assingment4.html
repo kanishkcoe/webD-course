@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>register</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <div>
+        <label for="fname">First name:</label>
+        <input id="fname" type="text" name="fname" placeholder="John"required>
+        <label for="lname">Last name:</label>
+        <input id="lname" type="text" name="lname" placeholder="Smith" required>
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="sex" value="male">
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="sex" value="female">
+        <label for="other">other</label>
+        <input id="other" type="radio" name="sex" value="other">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required>
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" pattern=".{5,15}" required title="5 to 15 characters only">
+      </div>
+
+      <div>
+        <label>
+          Birthday:
+          <select name="mon" placeholder="Month">
+            <option value="1">january</option>
+            <option value="2">february</option>
+            <option value="3">march</option>
+            <option value="4">april</option>
+            <option value="5">may</option>
+            <option value="6">june</option>
+            <option value="7">july</option>
+            <option value="8">august</option>
+            <option value="9">september</option>
+            <option value="10">october</option>
+            <option value="11">november</option>
+            <option value="12">december</option>
+          </select>
+          <select name="day" placeholder="Day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+          </select>
+          <select name="year" placeholder="year">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <label for="agreed">I ageed to the terms.</label>
+        <input type="checkbox" name="agreement" value="yes">
+      </div>
+
+      <input type="submit">
+
+    </form>
+  </body>
+</html>
